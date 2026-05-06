@@ -22,7 +22,7 @@
   <url type="bugtracker">https://github.com/kriptolix/Poliedros/issues</url>
   <!-- Should link a FAQ page for this software, to answer some of the most-asked questions in detail -->
   <!-- URLs of this type should point to a webpage where users can submit or modify translations of the upstream project -->
-  <url type="translate">https://github.com/kriptolix/Poliedros/tree/master/po</url>  
+  <url type="translate">https://github.com/kriptolix/Poliedros/tree/master/po</url>
 
   <translation type="gettext">poliedros</translation>
   <!-- All graphical applications having a desktop file must have this tag in the MetaInfo.
@@ -49,26 +49,46 @@
     <screenshot>
       <image>https://github.com/kriptolix/Poliedros/blob/master/data/screenshots/dark-collapsed-sidebar.png?raw=true</image>
       <caption>Collapsed sidebar.</caption>
-    </screenshot>    
+    </screenshot>
     <screenshot>
       <image>https://github.com/kriptolix/Poliedros/blob/master/data/screenshots/dark-command-sidebar.png?raw=true</image>
       <caption>Command Mode.</caption>
-    </screenshot>    
+    </screenshot>
   </screenshots>
 
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+
   <releases>
-    <release version="1.5.2" date="2025-00-00">      
+    <release version="1.5.3" date="2026-05-06">
+      <description translate="no">
+        <p>Just little fixes.</p>
+        <ul>
+          <li>Correction of sidebar color on light mode.</li>
+          <li>Roll button not clickable when display is empty.</li>
+          <li>Russian translation.</li>
+          <li>Updated to Gnome 50.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.5.2" date="2025-10-31">
       <description translate="no">
         <p>New functions and bug fixes.</p>
         <ul>
           <li>Correction of the d20 label, thanks to Alvaro Berenguer Cobo.</li>
           <li>Added full coverage of keyboard shortcuts.</li>
           <li>Fudge dices roll added.</li>
-          <li>d100 roll added.</li>                    
+          <li>d100 roll added.</li>
         </ul>
       </description>
     </release>
-    <release version="1.5.0" date="2025-06-24">      
+    <release version="1.5.0" date="2025-06-24">
       <description translate="no">
         <p>New functions and bug fixes.</p>
         <ul>
@@ -79,11 +99,11 @@
           <li>Nested functions added.</li>
           <li>Some spelling errors fixed.</li>
           <li>German translation added.</li>
-          <li>Small changes to make the mobile user experience possible.</li>          
+          <li>Small changes to make the mobile user experience possible.</li>
         </ul>
       </description>
     </release>
-    <release version="1.0.1" date="2025-05-21">      
+    <release version="1.0.1" date="2025-05-21">
       <description translate="no">
         <p>Little corrections.</p>
         <ul>
@@ -96,7 +116,7 @@
         </ul>
       </description>
     </release>
-    <release version="1.0.0" date="2024-01-18">      
+    <release version="1.0.0" date="2024-01-18">
       <description translate="no">
         <p>This is the first version of this software and has the following features:</p>
         <ul>
