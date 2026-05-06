@@ -3,10 +3,19 @@
     font-size: 6em;
 }
 
-.log_expanded {
+.dark_log_expanded {
   background-color: var(--headerbar-bg-color);    
 }
 
-.log_collapsed {
+.dark_log_collapsed {
   background-color: var(--headerbar-backdrop-color);    
 }
+
+.light_log_expanded {
+  background-color: #EBEBEB;    
+}
+
+.light_log_collapsed {
+  background-color: var(--dialog-bg-color);   
+}
+

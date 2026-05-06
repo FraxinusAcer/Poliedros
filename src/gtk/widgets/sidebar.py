@@ -53,16 +53,34 @@ class SideBar(Gtk.Box):
 
         self._clear_history_button.connect("clicked", self.clear_registers)
 
+        
+
     def css_matching(self, splitview, param_spec):
 
-        if splitview.get_collapsed():
+        window = self.get_root()
+        collapsed = splitview.get_collapsed()
+        is_dark = window.style_manager.get_dark()        
 
-            self._sidebar_list.remove_css_class("log_expanded")
-            self._sidebar_list.add_css_class("log_collapsed")
+        if collapsed:           
+
+            self._sidebar_list.remove_css_class("dark_log_expanded")
+            self._sidebar_list.remove_css_class("light_log_expanded")
+            
+            if is_dark:
+                self._sidebar_list.add_css_class("dark_log_collapsed")
+                return
+            
+            self._sidebar_list.add_css_class("light_log_collapsed")
             return
-
-        self._sidebar_list.remove_css_class("log_collapsed")
-        self._sidebar_list.add_css_class("log_expanded")
+            
+        self._sidebar_list.remove_css_class("dark_log_collapsed")
+        self._sidebar_list.remove_css_class("light_log_collapsed")
+            
+        if is_dark:
+                self._sidebar_list.add_css_class("dark_log_expanded")
+                return
+        
+        self._sidebar_list.add_css_class("light_log_expanded")
 
     def add_register(self, total, track, input):
 

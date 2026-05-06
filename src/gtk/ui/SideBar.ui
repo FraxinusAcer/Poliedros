@@ -12,10 +12,7 @@
           <object class="GtkListBox" id="_sidebar_list">
             <property name="show-separators">true</property>
             <property name="vexpand">true</property>
-            <property name="hexpand">true</property>
-            <style>
-              <class name="log_expanded"/>
-            </style>
+            <property name="hexpand">true</property>            
           </object>
         </child>
       </object>

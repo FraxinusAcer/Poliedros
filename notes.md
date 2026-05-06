@@ -1,2 +1,0 @@
-refazer arquivo pot
-atualizar traduções

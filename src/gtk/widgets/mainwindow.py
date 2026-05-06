@@ -51,7 +51,10 @@ class MainWindow(Adw.ApplicationWindow):
                      css_provider,
                      Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
 
-        # self.style_manager = Adw.StyleManager.get_default()
+        self.style_manager = Adw.StyleManager.get_default()        
+        
+        self.style_manager.connect("notify::dark", self.on_theme_changed)
+        
 
         flags = GObject.BindingFlags.SYNC_CREATE | GObject.BindingFlags.BIDIRECTIONAL
         self._split_view.bind_property("show-sidebar",
@@ -67,6 +70,8 @@ class MainWindow(Adw.ApplicationWindow):
 
         self._split_view.connect("notify::collapsed",
                                  self._sidebar.css_matching)
+        
+        self._sidebar.css_matching(self._split_view, None)
 
         width_condition = Adw.BreakpointCondition.parse("max-width: 535sp")
 
@@ -110,3 +115,10 @@ class MainWindow(Adw.ApplicationWindow):
         self._roll_area._stack.set_halign(3)
         self._roll_area._dice_area.set_halign(3)
         self._roll_area._adaptable.set_spacing(20)
+
+    def on_theme_changed(self, param, value):                
+        self._sidebar.css_matching(self._split_view, None)
+        
+        
+
+        

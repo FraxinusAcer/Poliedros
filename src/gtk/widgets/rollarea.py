@@ -71,6 +71,11 @@ class RollArea(Gtk.Box):
 
         self._display.connect("activate", self._do_roll)
 
+        self._display.connect("changed",
+                                 self._button_activation)
+        
+        self._button_activation(self._display)
+
     def _reset_error_state(self, *args):
 
         if self._display.has_css_class("error"):
@@ -169,3 +174,8 @@ class RollArea(Gtk.Box):
         application = self.get_root().application
         application.do_roll()
         self._command = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+    def _button_activation(self, display):
+        
+        has_text = bool(display.get_text().strip())
+        self._roll_button.set_sensitive(has_text)
