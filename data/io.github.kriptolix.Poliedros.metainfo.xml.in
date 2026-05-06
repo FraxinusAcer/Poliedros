@@ -66,7 +66,6 @@
   </requires>
 
   <releases>
-<<<<<<< HEAD
     <release version="1.5.3" date="2026-05-06">
       <description translate="no">
         <p>Just little fixes.</p>
@@ -79,9 +78,6 @@
       </description>
     </release>
     <release version="1.5.2" date="2025-10-31">
-=======
-    <release version="1.5.2" date="2025-10-29">      
->>>>>>> 505c43dde3ceae980175d894d5ca977d1e83eaa5
       <description translate="no">
         <p>New functions and corrections.</p>
         <ul>
@@ -89,10 +85,6 @@
           <li>Added full coverage of keyboard shortcuts.</li>
           <li>Fudge dices roll added.</li>
           <li>d100 roll added.</li>
-<<<<<<< HEAD
-=======
-          <li>Update to Gnome 49.</li>                    
->>>>>>> 505c43dde3ceae980175d894d5ca977d1e83eaa5
         </ul>
       </description>
     </release>

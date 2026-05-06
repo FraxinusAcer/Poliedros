@@ -80,11 +80,7 @@ class PoliedrosApplication(Adw.Application):
         about = Adw.AboutDialog.new_from_appdata(
             '/io/github/kriptolix/Poliedros'
             '/data/io.github.kriptolix.Poliedros.metainfo.xml.in',
-<<<<<<< HEAD
             '1.5.3'
-=======
-            '1.5.2'
->>>>>>> 505c43dde3ceae980175d894d5ca977d1e83eaa5
         )
 
         about.set_translator_credits(_('translator_credits'))
