@@ -1,7 +1,11 @@
 {
     "id" : "io.github.kriptolix.Poliedros",
     "runtime" : "org.gnome.Platform",
+<<<<<<< HEAD
     "runtime-version" : "50",
+=======
+    "runtime-version" : "49",
+>>>>>>> 505c43dde3ceae980175d894d5ca977d1e83eaa5
     "sdk" : "org.gnome.Sdk",
     "command" : "poliedros",
     "finish-args" : [        

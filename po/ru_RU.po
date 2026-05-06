@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Diego C Sampaio <kriptolix@gmail.co>, 2024.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-23 16:59-0300\n"
-"PO-Revision-Date: 2025-10-29 10:14-0300\n"
-"Last-Translator: Diego C. Sampaio <kriptolix@gmail.com>\n"
+"PO-Revision-Date: 2026-03-10 16:57+0300\n"
+"Last-Translator: Fraxinus Acer\n"
 "Language-Team: \n"
-"Language: pt_BR\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,11 +25,11 @@ msgstr "Poliedros"
 
 #: data/io.github.kriptolix.Poliedros.desktop.in:8
 msgid "GTK;Die;Dice;Roll;Random;Number;"
-msgstr "GTK;Dado;Dados;Rolagem;Aleatório;Numero;"
+msgstr "GTK;Die;Dice;Roll;Random;Number;"
 
 #: data/io.github.kriptolix.Poliedros.metainfo.xml.in:8
 msgid "Roll multi-type dice."
-msgstr "Poliedros é um rolador de múltiplos tipos de dados."
+msgstr "Бросайте многогранные кости."
 
 #: data/io.github.kriptolix.Poliedros.metainfo.xml.in:10
 msgid ""
@@ -37,173 +37,175 @@ msgid ""
 "rolls using just the mouse, while Command mode allows for more complex rolls "
 "and combinations."
 msgstr ""
-"Poliedros é um rolador de múltiplos tipos de dados. O modo Básico permite "
-"realizar rolagens rápidas utilizando apenas o mouse, enquanto o modo Comando "
-"permite rolagens e combinações mais complexas."
+"Poliedros - это бросальщик многогранных костей. В простом режиме вы можете "
+"делать быстрые броски, просто используя мышь, а в командном режиме возможны "
+"комплексные броски и комбинации."
 
 #: data/io.github.kriptolix.Poliedros.metainfo.xml.in:14
 msgid "Diego C Sampaio"
-msgstr "Diego C Sampaio"
+msgstr "Диего Сампайо"
 
 #: data/io.github.kriptolix.Poliedros.metainfo.xml.in:43
 msgid "Basic Mode."
-msgstr "Modo Básico."
+msgstr "Простой режим."
 
 #: data/io.github.kriptolix.Poliedros.metainfo.xml.in:47
 msgid "No sidebar."
-msgstr "Sem a barra lateral."
+msgstr "Без боковой понели."
 
 #: data/io.github.kriptolix.Poliedros.metainfo.xml.in:51
 msgid "Collapsed sidebar."
-msgstr "Barra leteral colapsada."
+msgstr "Свернутая боковая панель."
 
 #: data/io.github.kriptolix.Poliedros.metainfo.xml.in:55
 msgid "Command Mode."
-msgstr "Modo Comando."
+msgstr "Командный режим."
 
 #: src/application.py:86
 msgid "translator_credits"
-msgstr "Diego C. Sampaio"
+msgstr ""
+"Fraxinus Acer, 2026 \n"
+"dungeonsanddragons.ru"
 
 #: src/gtk/ui/DiceArea.ui:74
 msgid "Plus Number"
-msgstr "Adicionar Numero"
+msgstr "Плюс число"
 
 #: src/gtk/ui/DiceArea.ui:150
 msgid "Minus Number"
-msgstr "Subtrair Numero"
+msgstr "Минус число"
 
 #: src/gtk/ui/EmptyPage.ui:7
 msgid "Nothing Here Yet"
-msgstr "Nada Aqui Ainda"
+msgstr "Здесь пока ничего нет"
 
 #: src/gtk/ui/EmptyPage.ui:8
 msgid "Roll some dice to begin"
-msgstr "Role alguns dados para começar"
+msgstr "Для начала бросьте несколько костей"
 
 #: src/gtk/ui/InfoArea.ui:7
 msgid "Command Mode"
-msgstr "Modo Comando"
+msgstr "Командный режим"
 
 #: src/gtk/ui/InfoArea.ui:13
 msgid "Command mode usage instructions"
-msgstr "Instruções de uso do modo comando"
+msgstr "Инструкции по использованию командного режима"
 
 #: src/gtk/ui/LogEntry.ui:10
 msgid "Redo this roll"
-msgstr "Refazer essa rolagem"
+msgstr "Повторить этот бросок"
 
 #: src/gtk/ui/MainWindow.ui:25
 msgid "Go Back"
-msgstr "Voltar"
+msgstr "Назад"
 
 #: src/gtk/ui/MainWindow.ui:50
 msgid "Toggle History"
-msgstr "Exibir/Ocultar Histórico"
+msgstr "Отображение истории"
 
 #: src/gtk/ui/MainWindow.ui:86
 msgid "Keyboard Shortcuts"
-msgstr "Atalhos de teclado"
+msgstr "Комбинации клавиш"
 
 #: src/gtk/ui/MainWindow.ui:90
 msgid "About Poliedros"
-msgstr "Sobre o Poliedros"
+msgstr "О Poliedros"
 
 #: src/gtk/ui/RollArea.ui:54
 msgid "Switch Mode"
-msgstr "Alternar Modo"
+msgstr "Переключить режим"
 
 #: src/gtk/ui/RollArea.ui:65 src/gtk/ui/RollArea.ui:66
 msgid "Roll"
-msgstr "Rolar"
+msgstr "Бросить"
 
 #: src/gtk/ui/RollArea.ui:78
 msgid "Clear Command"
-msgstr "Limpar Comando"
+msgstr "Очистить ввод"
 
 #: src/gtk/ui/SideBar.ui:31
 msgid "Clear results"
-msgstr "Limpar Resultados"
+msgstr "Очистить результаты"
 
 #: src/gtk/ui/Shortcuts.ui:11
 msgid "General"
-msgstr "Geral"
+msgstr "Общие"
 
 #: src/gtk/ui/Shortcuts.ui:15
 msgid "Quit"
-msgstr "Fechar"
+msgstr "Выход"
 
 #: src/gtk/ui/Shortcuts.ui:21
 msgid "Clear the dice display"
-msgstr "Limpar Comando"
+msgstr "Очистить отображение костей"
 
 #: src/gtk/ui/Shortcuts.ui:27
 msgid "Clear the roll logs"
-msgstr "Limpar Resultados"
+msgstr "Очистить логи бросоков"
 
 #: src/gtk/ui/Shortcuts.ui:33
 msgid "Toggle panel visibility"
-msgstr "Ativar/Desativar visibilidade do painel"
+msgstr "Переключение видимости панели"
 
 #: src/gtk/ui/Shortcuts.ui:39
 msgid "Toggle command mode"
-msgstr "Ativar/Desativar Modo Comando"
+msgstr "Переключение командного режима"
 
 #: src/gtk/ui/Shortcuts.ui:45
 msgid "Perform dice roll"
-msgstr "Executar uma rolagem"
+msgstr "Выполнить бросок кости"
 
 #: src/gtk/ui/Shortcuts.ui:52
 msgid "Additions and subtractions"
-msgstr "Adições e subtrações"
+msgstr "Сложения и вычитания"
 
 #: src/gtk/ui/Shortcuts.ui:56
 msgid "Add increment (+1)"
-msgstr "Adicionar incremento (+1)"
+msgstr "Добавить увеличение (+1)"
 
 #: src/gtk/ui/Shortcuts.ui:62
 msgid "Add decrement (-1)"
-msgstr "Adicionar decremento (-1)"
+msgstr "Добавить уменьшение (-1)"
 
 #: src/gtk/ui/Shortcuts.ui:69
 msgid "Dice"
-msgstr "Dados"
+msgstr "Кости"
 
 #: src/gtk/ui/Shortcuts.ui:73
 msgid "Add a Fudge Die"
-msgstr "Adicionar um dado Fudge"
+msgstr "Добавить кF"
 
 #: src/gtk/ui/Shortcuts.ui:79
 msgid "Add a d4"
-msgstr "Adicionar um d4"
+msgstr "Добавить к4"
 
 #: src/gtk/ui/Shortcuts.ui:85
 msgid "Add a d6"
-msgstr "Adicionar um d6"
+msgstr "Добавить к6"
 
 #: src/gtk/ui/Shortcuts.ui:91
 msgid "Add a d8"
-msgstr "Adicionar um d8"
+msgstr "Добавить к8"
 
 #: src/gtk/ui/Shortcuts.ui:97
 msgid "Add a d10"
-msgstr "Adicionar um d10"
+msgstr "Добавить к10"
 
 #: src/gtk/ui/Shortcuts.ui:103
 msgid "Add a d12"
-msgstr "Adicionar um d12"
+msgstr "Добавить к12"
 
 #: src/gtk/ui/Shortcuts.ui:109
 msgid "Add a d20"
-msgstr "Adicionar um d20"
+msgstr "Добавить к20"
 
 #: src/gtk/ui/Shortcuts.ui:115
 msgid "Add a d100"
-msgstr "Adicionar um d100"
+msgstr "Добавить к100"
 
 #: src/gtk/ui/UsageInfo.ui:21
 msgid "Command usage instructions"
-msgstr "Instruções de uso do comando"
+msgstr "Инструкции по использованию команд"
 
 #: src/gtk/ui/UsageInfo.ui:32
 msgid ""
@@ -214,11 +216,12 @@ msgid ""
 "<b>Ex.:</b> It is possible to roll arbitrary dice like 1d7 or, 3d19.\n"
 "                    "
 msgstr ""
-"<b>Rolando dados:</b> operador \"d\".\n"
+"<b>Бросание костей:</b> оператор \"d\".\n"
 "\n"
-"<b>Ex.:</b> 3d6, rola 3 dados de 6 lados.\n"
-"<b>Ex.:</b> 2df, rola 2 dados fudge (-1, 0 e 1 como possíveis resultados).\n"
-"<b>Ex.:</b> É possível rolar dados arbitrários como 1d7 ou, 3d19.\n"
+"<b>Напр.:</b> 3d6, бросить 3 6-гранных кости.\n"
+"<b>Напр.:</b> 2df, бросить 2 fudge кости (-1, 0 или 1 возможные "
+"результаты).\n"
+"<b>Напр.:</b> Возможно бросить произвольные кости как 1к7 или, 3к19.\n"
 "                    "
 
 #: src/gtk/ui/UsageInfo.ui:47
@@ -230,11 +233,11 @@ msgid ""
 "rolling 1 4-sided die.\n"
 "                    "
 msgstr ""
-"<b>Adições/Subtrações :</b> operadores \"+\" e \"-\".\n"
+"<b>Сложения/Вычитания:</b> операторы \"+\" и \"-\" .\n"
 "                    \n"
-"<b>Ex.:</b> 1d6 + 3, rola 1 dado de 6 faces e adiciona 3.\n"
-"<b>Ex.:</b> 2d8 - 1d4, rola 2 dados de 8 faces e subtrai o resultado da "
-"rolagem de 1 dado de 4 faces.\n"
+"<b>Напр.:</b> 1d6 + 3, бросить 1 6-гранную кость и добавить к нему 3.\r\n"
+"<b>Напр.:</b> 2d8 - 1d4, бросить 2 8-гранных кости и вычесть и броска "
+"результат на 1 4-гранной кости.\n"
 "                    "
 
 #: src/gtk/ui/UsageInfo.ui:61
@@ -246,11 +249,11 @@ msgid ""
 "highest.                    \n"
 "                    "
 msgstr ""
-"<b>Mantendo os maiores:</b> operador \"|kh:number\".\n"
+"<b>Брать большее:</b> оператор \"|kh:число\".\n"
 "                    \n"
-"<b>Ex.:</b> 3d6|kh:2, rola 3 dados de 6 faces e mantêm os 2 maiores.\n"
-"<b>Ex.:</b> 2d20|kh:1, rola 2 dados de 20 faces mantêm o "
-"maior.                    \n"
+"<b>Напр.:</b> 3d6|kh:2, бросить 3 6-гранных кости и взять 2 наибольших.\n"
+"<b>Напр.:</b> 2d20|kh:1, бросить 2 20-гранных кости и взять "
+"наибольшее.                    \n"
 "                    "
 
 #: src/gtk/ui/UsageInfo.ui:75
@@ -261,10 +264,10 @@ msgid ""
 "<b>Ex.:</b> 3d6|kl:1, roll 3 6-sided dice and keep the lowest.\n"
 "                    "
 msgstr ""
-"<b>Mantendo os menores:</b> operador \"|kl:number\".\n"
+"<b>Брать меньшее:</b> оператор \"|kl:число\".\n"
 "                    \n"
-"<b>Ex.:</b> 4d10|kl:2, rola 4 dados de 10 faces e mantêm os 2 menores.\n"
-"<b>Ex.:</b> 3d6|kl:1, rola 3 dados de 6 faces e mantêm o menor.\n"
+"<b>Напр.:</b> 4d10|kl:2, бросить 4 10-гранных кости и взять 2 наименьших.\n"
+"<b>Напр.:</b> 3d6|kl:1, бросить 3 6-гранных кости и взять наименьшее.\n"
 "                    "
 
 #: src/gtk/ui/UsageInfo.ui:89
@@ -278,13 +281,13 @@ msgid ""
 "<b>Ex.:</b> 80..90: interval between numbers (inclusive).\n"
 "                    "
 msgstr ""
-"<b>Parâmetros de função:</b>.\n"
+"<b>Функциональные параметры:</b>\n"
 "\n"
-"<b>Ex.:</b> >15: maior que um numero (inclusivo).\n"
-"<b>Ex.:</b> 6,8,10: relação arbitraria de números.\n"
-"<b>Ex.:</b> 4: um numero único.\n"
-"<b>Ex.:</b> &lt;10: menor que um numero (inclusivo).\n"
-"<b>Ex.:</b> 80..90: intervalo entre números (inclusive).\n"
+"<b>Напр.:</b> >15: больше, чем число (включительно).\n"
+"<b>Напр.:</b> 6,8,10: перечисление произвольных чисел.\n"
+"<b>Напр.:</b> 4: одиночное число.\n"
+"<b>Напр.:</b> &lt;10: меньше, чем число (включительно).\n"
+"<b>Напр.:</b> 80..90: интервал между числами (включительно).\n"
 "                    "
 
 #: src/gtk/ui/UsageInfo.ui:106
@@ -300,15 +303,16 @@ msgid ""
 "results between 80 and 90 occur occur.\n"
 "                    "
 msgstr ""
-"<b>Contar:</b> operador \"|cn:parâmetros\".\n"
+"<b>Подсчёт:</b> оператор \"|cn:параметры\".\n"
 "                    \n"
-"<b>Ex.:</b> 6d10|cn:6,8,10; rola 4 dados de 10 lados e conte quantos 6,8 e "
-"10 saem.\n"
-"<b>Ex.:</b> 4d4|cn:4; rola 4 dados de 4 faces e conte quantos 4 saem.\n"
-"<b>Ex.:</b> 6d20|cn:>15; rola 6 dados de 20 faces e conte quantos resultados "
-"maiores que 15 saíram.\n"
-"<b>Ex.:</b> 3d100|cn:80..90; rola 3 dados de 100 lados e conte quantos "
-"resultados entre 80 e 90 saíram.\n"
+"<b>Напр.:</b> 6d10|cn:6,8,10; бросить 4 10-гранных кости и подсчитать "
+"сколько 6,8 и 10 выпало.\n"
+"<b>Напр.:</b> 4d4|cn:4; бросить 4 4-гранных кости и посчитать сколько 4 "
+"выпало.\n"
+"<b>Напр.:</b> 6d20|cn:>15; бросить 6 20-гранных кости и подсчитать сколько "
+"результатов больше 15 выпало.\n"
+"<b>Напр.:</b> 3d100|cn:80..90; бросить 3 100-гранных костей и подсчитать "
+"сколько результатов в диапазоне от 80 до 90.\n"
 "                    "
 
 #: src/gtk/ui/UsageInfo.ui:122
@@ -322,13 +326,13 @@ msgid ""
 "on.                    \n"
 "                    "
 msgstr ""
-"<b>Explodindo dados:</b> operador \"|ex:parâmetros\". \n"
-"                   \n"
-"<b>Ex.:</b> 6d6|ex:6, rola 6 dados de 6 faces e, se algum resultar num 6, "
-"rola esse dado novamente, adiciona o resultado e assim por diante.\n"
-"<b>Ex.:</b> 5d10|ex:>8, rola 5 dados de 10 faces e, se algum dos resultados "
-"for maior que 8, rola esse dado novamente, adiciona o resultado e assim por "
-"diante.                    \n"
+"<b>Взрывные кости:</b> оператор \"|ex:параметры\".\n"
+"                    \n"
+"<b>Напр.:</b> 6d6|ex:6, бросить 6 6-гранных костей и, если любой из "
+"результатов 6, снова бросить эту кость, добавив к результату и повторить.\n"
+"<b>Напр.:</b> 5d10|ex:>8, бросить 5 10-гранных костей и, если любой из "
+"результатов больше 8, бросить эту кость снова, добавив к результату и "
+"повторить                    \n"
 "                    "
 
 #: src/gtk/ui/UsageInfo.ui:136
@@ -342,13 +346,13 @@ msgid ""
 "result.                    \n"
 "                    "
 msgstr ""
-"<b>Rerolar dados:</b> operador \"e\". \n"
+"<b>Переброс костей:</b> оператор \"|rr:параметры\".\n"
 "                    \n"
-"<b>Ex.:</b> 6d6|rr:6, rola 6 dados de 6 faces e, se algum resultar num 6, "
-"rola esse dado novamente e fica com o novo resultado.\n"
-"<b>Ex.:</b> 5d10|rr:>8, rola 5 dados de 10 faces e, se algum dos resultados "
-"for maior que 8, rola esse dado novamente e fica com o novo "
-"resultado.                    \n"
+"<b>Напр.:</b> 6d6|rr:6, бросить 6 6-гранных кости и, если любой из "
+"результатов 6, перебросить эту кость и взять новый результат.\n"
+"<b>Напр.:</b> 5d10|rr:>8, бросить 5 10-гранных кости и если любой из "
+"результатов больше 8 перебросить эту кость и взять новый "
+"результат.                    \n"
 "                    "
 
 #: src/gtk/ui/UsageInfo.ui:150
@@ -363,15 +367,13 @@ msgid ""
 "then, check if the result is greater than 8.                    \n"
 "                    "
 msgstr ""
-"<b>Funções aninhadas:</b> Você pode usar o resultado de uma função como "
-"entrada para outra função. \n"
+"<b>Вложенные функции:</b> Вы можете использовать результат выполнения одной "
+"функции в качестве входных данных для другой функции.\n"
 "                    \n"
-"<b>Ex.:</b> 6d6|ex:6|cn:6, rola 6 dados de 6 faces e, se algum deles "
-"resultar num 6, role esse dado novamente e assim por diante.Então, conte "
-"quantos 6 saíram.\n"
-"<b>Ex.:</b> 5d10|kh:1|cn:>8, rola 5 dados de 10 faces e mantenha o maior, "
-"então, verifica se o resultado é maior que 8.                   \n"
+"<b>Напр.:</b> 6d6|ex:6|cn:6, бросить 6 6-гранных кости и, если любой из "
+"результатов 6 бросить снова и добавить результат. Затем подсчитать "
+"количество 6.\n"
+"<b>Напр.:</b> 5d10|kh:1|cn:>8, бросить 5 10-гранных костей и взять "
+"наибольшее, затем проверить результат, больше ли он чем "
+"8.                    \n"
 "                    "
-
-#~ msgid "GTK;"
-#~ msgstr "GTK;"
